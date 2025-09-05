@@ -9,6 +9,9 @@
 
 }
 
+
+
+
 .darkmode {
 /* 
      --white: #FFFFFF;
@@ -83,16 +86,14 @@ color-scheme: light;
 
 /* Header */
 
+
+
 header {
   position: relative;
   min-height: 165px;
   min-width: 100%;
   color: var(--white);
-z-index: 1;
-}
-
-
-header {
+   z-index: 1;
   display: flex;
   justify-content: space-between;
 
@@ -103,14 +104,19 @@ header {
   position: absolute;
   left: 0px;
   top: -20px;
+  right: -6em;
   z-index: -1;
   min-width: 100%;
+  display: grid;
+  place-items: center;
 }
 
 .header-bg-img img {
   max-height: 165px;
-  min-width: 100%;
+  min-width: 100%; 
+
 }
+
 html, body {
     min-height: 100vh;
     min-width: 100%;
@@ -127,7 +133,7 @@ html, body {
 /* search css */
 
 .search-div{
-  min-width: 60%;
+  min-width: 375px;
   padding: 0 1.5rem;
   max-width: 60%;
   border-radius: 10px;
@@ -142,7 +148,8 @@ html, body {
 .searchBox {
   display: flex;
   align-items: center;
-  min-width: 60%;
+  min-width: 375px;
+  max-width: 60%;
 
  
 
@@ -168,11 +175,12 @@ html, body {
 
 
 .searchBox .input-txt {
-  background-color: var(--very-dark-blue);
+ background-color: var(--very-dark-blue);
   border: none;
   outline: none;
   color: var(--white);
   font-size: 1rem;
+
 }
 
 
@@ -204,7 +212,7 @@ main .btn  {
 .jobs-section {
   margin-top: 4rem;
   min-height: 100vh;
-  max-width: 67vw;
+  min-width: 67vw;
 
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -339,21 +347,13 @@ footer {
 
 
 
-.theme-switch {
-
-
-    background-color: white;
-    border-radius: 50%;
-}
-
-
 
 .theme-switch{
   height: 50px;
   width: 50px;
   padding: 0;
   border-radius: 50%;
-  background-color: var(--base-variant);
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -364,17 +364,21 @@ footer {
   height: 35px;
   width: 35px;
   border-radius: 50%;
-  background-color:white;
   fill: black;
 }
 .theme-switch svg:last-child{
-  display: none;
+  display: block;
+  transition: ease-in-out;
+  
 }
 .darkmode .theme-switch svg:first-child{
   display: none;
+
 }
 .darkmode .theme-switch svg:last-child{
   display: block;
+  transition: ease-in-out;
+
 }
 
 
@@ -580,3 +584,4 @@ article p {
   max-width: 60%;
    padding: 15px 20px;
 }
+
