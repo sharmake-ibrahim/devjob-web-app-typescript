@@ -3,6 +3,7 @@ import tabletIMg from "./assets/tablet/bg-pattern-header.svg";
 import mobileImg from "./assets/mobile/bg-pattern-header.svg";
 import { useState, useEffect } from "react";
 import logo from "./assets/desktop/logo.svg";
+import { Link } from "react-router-dom";
 
 
 
@@ -33,7 +34,10 @@ const Header = ()=> {
                 </picture>
 
         <div className="logo">
-            <img src={logo} alt="devjob logo image"/>
+          <Link to= "/" >
+           <img src={logo} alt="devjob logo image"/>
+          </Link>
+           
         </div>
 
         

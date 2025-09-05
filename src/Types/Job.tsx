@@ -3,6 +3,10 @@ export interface JobRequirements {
   content: string;
   items: string[];
 }
+export interface Role {
+      content: string;
+      items: string[];
+}
 
 export interface Job {
   id: number;
@@ -17,4 +21,5 @@ export interface Job {
   apply: string;
   description: string;
   requirements: JobRequirements;
+  role: Role;
 }
