@@ -292,15 +292,15 @@ padding: 10px 15px;
 
 footer {
   height: 100px;
-  min-width: 100%;
+ width: clamp(375px, 55%);
   display: grid;
   place-items: center;
   background-color: var(--very-dark-blue);
+  border-radius: 5px 5px 0 0;
 }
 
 .footer-content {
 
-  min-width: 69.375em;
   color: var(--white);
   display: grid;
   grid-template-columns: repeat(2, 1.1fr);
@@ -393,9 +393,11 @@ footer {
 
 
 
+
+
 .detials-content {
   min-height: 100vh;
-  max-width: 100%;
+  width: clamp(375px, 55%);
   display: grid;
   place-items: center;
   background-color: var(--very-dark-blue);
@@ -406,9 +408,9 @@ footer {
 
 
 .job-header {
-  margin: 2em 0;
+  margin: 2em 0 ;
   max-height: 140px;
-  min-width: 55%;
+ width: clamp(375px, 55%);
   margin-top: -4.5rem;
   background-color: var(--very-dark-blue);
   display: flex;
@@ -432,15 +434,7 @@ footer {
     border-radius: 10px 0 0 10px;
   }
 
-/* .detials-btn {
-   background-color: var(--blue-color);
-  padding: 10px 15px;
-  color: var(--white);
-  border-radius: 5px;
-  width: 100px;
-  text-align: center;
-  font-size: clamp(15px, 2vw, 1rem);
-} */
+
 
 .job-header a {
 
@@ -472,6 +466,7 @@ footer {
   color: var(--clr-txt);
   min-height: 100vh;
   max-width: 70%;
+  min-width: 375px;
   display: grid;
   place-items: center;
   border-radius: 10px;
@@ -535,9 +530,10 @@ footer {
 
 .container {
   min-height: 100vh;
-  max-width: 67rem;
+ max-width: 67rem;
   display: grid;
   place-items: center;
+  margin: 0 1.5rem 0 1.5rem;
 } 
 
 

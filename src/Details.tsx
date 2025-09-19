@@ -21,7 +21,9 @@ const Details: React.FC = ()=> {
 
             <Header/>
 
-                    
+   
+    <main>
+                         
     <section className="job-header">
          <div className="logo" style={{background: details_data?.logoBackground}}>
             <img src= {details_data?.logo} alt=""/>
@@ -34,7 +36,6 @@ const Details: React.FC = ()=> {
             
                <Link className="details-btn" to= {`${details_data?.apply}`} > Company Site</Link>
     </section>
-    <main>
           <div className="container">
   
             <section className="detials-content">
