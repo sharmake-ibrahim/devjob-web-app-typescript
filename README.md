@@ -5,7 +5,7 @@
 
 **devjob-web-app-typescript** is a simple job-board web application built with **React** and **TypeScript**. It was created as a practice project to gain experience with type-safe front-end development and strengthen React skills. The app aims to provide a clean, responsive interface for browsing and filtering job listings.
 
-Live demo: [devjob-web-app-typescript.vercel.app](https://devjob-web-app-typescript.vercel.app/) ([GitHub][2])
+Live demo: [devjob-web-app-typescript.vercel.app](https://devjob-web-app-typescript.vercel.app/) 
 
 ## 📦 Features
 
