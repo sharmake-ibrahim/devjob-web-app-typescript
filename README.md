@@ -79,3 +79,5 @@ Feel free to open issues or send pull requests. Suggestions include:
 * Add tests (unit / integration)
 
 Happy Coding!
+
+![Alt](https://repobeats.axiom.co/api/embed/d22146e6172e1e67f2566b3fd329527bc56e6b5c.svg "Repobeats analytics image")
